@@ -165,7 +165,9 @@
 	<input type="number" name="id" placeholder="id" required>*<br><br>
 	<input type="text" name="nombre" placeholder="nombre" required>*<br><br>
 	<br>
+	<>
 	<input type="submit" name="boton2" value="Eliminar">
+	<>
 	<br>
 	<?php
 	if(isset($_POST['boton2'])){
